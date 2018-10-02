@@ -1,0 +1,24 @@
+{
+  "name": "node-red-contrib-tpm2-net",
+  "description": "Node-RED node that controls lights via tpm2.net",
+  "keywords": [
+    "node-red",
+    "tpm2",
+    "tpm2.net",
+    "light"
+  ],
+  "node-red": {
+    "nodes": {
+      "tpm2": "node-red-contrib-tpm2-net.js"
+    }
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {   
+    "tpm2-node": "4ndreas/tpm2-net-node"
+  },
+  "repository" : {
+    "type":"git",
+    "url":"https://github.com/4ndreas/node-red-contrib-tpm2-net"
+  }
+}
